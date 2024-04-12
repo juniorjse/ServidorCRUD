@@ -7,6 +7,7 @@ Este repositório contém um servidor desenvolvido em C#, projetado para facilit
 Para executar e trabalhar com este servidor, você precisará ter instalado em seu sistema:
 
 - .NET 6.0 SDK (ou superior)
+- curl
 - Um editor de código de sua escolha (Recomendado: Visual Studio Code ou Visual Studio)
 
 ## Configuração do Ambiente
@@ -24,7 +25,15 @@ Para iniciar o servidor, execute o seguinte comando no diretório do projeto:
   `dotnet run`
 
 
-O servidor será iniciado, e você poderá acessar as diferentes rotas através do endereço `http://localhost:5000` (ou a porta configurada).
+O servidor será iniciado, e você poderá acessar as diferentes rotas através do endereço `http://localhost:5144` (ou a porta configurada).
+
+## Teste de requisicoes
+
+Para testar se seu servidor está rodando corretamente abra uma nova guia do terminal, no mesmo diretório, e execute:
+  `curl -X POST http://localhost:5144/api/produtos -H "Content-Type: application/json" -d '{"nome":"Produto Teste", "preco": 99.99}'`
+
+Com isso, o seu terminal deverá retornar algo como:
+  `{"id":1,"nome":"Produto Teste","preco":99.99`
 
 ## Estrutura do Projeto
 

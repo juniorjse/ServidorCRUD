@@ -34,3 +34,4 @@
 /Users/junior/Documents/MeuServidorCRUD/obj/Debug/net8.0/MeuServidorCRUD.pdb
 /Users/junior/Documents/MeuServidorCRUD/obj/Debug/net8.0/MeuServidorCRUD.genruntimeconfig.cache
 /Users/junior/Documents/MeuServidorCRUD/obj/Debug/net8.0/ref/MeuServidorCRUD.dll
+/Users/junior/Documents/MeuServidorCRUD/obj/Debug/net8.0/MeuServidorCRUD.sourcelink.json
