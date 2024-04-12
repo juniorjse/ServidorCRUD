@@ -13,15 +13,18 @@ Para executar e trabalhar com este servidor, você precisará ter instalado em s
 ## Configuração do Ambiente
 
 1. Clone o repositório para sua máquina local usando:
+
   `git clone https://github.com/juniorjse/ServidorCRUD`
 
 3. Compile o projeto para garantir que todas as dependências estejam corretamente instaladas:
+
   `dotnet build`
 
 
 ## Executando o Servidor
 
 Para iniciar o servidor, execute o seguinte comando no diretório do projeto:
+
   `dotnet run`
 
 
