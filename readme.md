@@ -34,4 +34,4 @@ O projeto está organizado da seguinte forma:
 - `Models/` - Define os modelos de dados utilizados pelo servidor.
 - `Services/` - Contém a lógica de negócios e serviços auxiliares.
 
-Desenvolvido por [SeuNome](https://github.com/juniorjse)
+Desenvolvido por Junior (https://github.com/juniorjse)
