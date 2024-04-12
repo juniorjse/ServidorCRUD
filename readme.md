@@ -12,20 +12,20 @@ Para executar e trabalhar com este servidor, você precisará ter instalado em s
 
 ## Configuração do Ambiente
 
-1. Clone o repositório para sua máquina local usando:
+Clone o repositório para sua máquina local usando:
 
-  `git clone https://github.com/juniorjse/ServidorCRUD`
+    `git clone https://github.com/juniorjse/ServidorCRUD`
 
-3. Compile o projeto para garantir que todas as dependências estejam corretamente instaladas:
+Compile o projeto para garantir que todas as dependências estejam corretamente instaladas:
 
-  `dotnet build`
+      `dotnet build`
 
 
 ## Executando o Servidor
 
 Para iniciar o servidor, execute o seguinte comando no diretório do projeto:
 
-  `dotnet run`
+    `dotnet run`
 
 
 O servidor será iniciado, e você poderá acessar as diferentes rotas através do endereço `http://localhost:5144` (ou a porta configurada).
@@ -34,12 +34,12 @@ O servidor será iniciado, e você poderá acessar as diferentes rotas através 
 
 Para testar se seu servidor está rodando corretamente abra uma nova guia do terminal, no mesmo diretório, e execute:
 
-  `curl -X POST http://localhost:5144/api/produtos -H "Content-Type: application/json" -d '{"nome":"Produto Teste", "preco": 99.99}'`
+    `curl -X POST http://localhost:5144/api/produtos -H "Content-Type: application/json" -d '{"nome":"Produto Teste", "preco": 99.99}'`
 
 
 Com isso, o seu terminal deverá retornar algo como:
 
-  `{"id":1,"nome":"Produto Teste","preco":99.99`
+    `{"id":1,"nome":"Produto Teste","preco":99.99}`
 
 
 ## Estrutura do Projeto
